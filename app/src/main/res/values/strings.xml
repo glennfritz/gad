@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">GAAD</string>
+    <string name="appbar_scrolling_view_behavior" />
+    <string name="leaderboard">LEADERBOARD</string>
+    <string name="submit">Submit</string>
+    <string name="project_submission">Project submission</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="project_on_git">Project on GITHUB (link)</string>
+    <string name="learning_leader">Learning Leaders</string>
+    <string name="skill_leader">Skill IQ Leaders</string>
+    <string name="skill_iq_score">skill IQ Score</string>
+    <string name="learning_hours">learning hours</string>
+    <string name="network_error">Network Error, try again later</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="enter_email_name">Enter email</string>
+    <string name="enter_github_link">Enter GITHUB link to project</string>
+    <string name="submitting">Submitting project</string>
+    <string name="submission_not_successful">Submission not Successful</string>
+    <string name="submission_successful">Submission Succesful</string>
+    <string name="are_you_sure">Are you sure ?</string>
+    <string name="yes">Yes</string>
+
+
+</resources>
