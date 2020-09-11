@@ -25,6 +25,7 @@ public class RemoteDB {
 
     public void submitProject(String fname, String lname, String em, String url) {
         String link = "https://docs.google.com/forms/d/e/1FAIpQLSf9d1TcNU6zc6KR8bSEM41Z1g1zl35cwZr2xyjIhaMAz8WChQ/formResponse";
+        caller.completeTransaction("200");
     }
 
     public interface transactionCompleted {

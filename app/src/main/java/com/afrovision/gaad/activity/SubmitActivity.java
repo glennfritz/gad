@@ -100,6 +100,7 @@ public class SubmitActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 dialog.dismiss();
+                container.setVisibility(View.VISIBLE);
             }
         });
 
@@ -107,10 +108,12 @@ public class SubmitActivity extends AppCompatActivity {
         yes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                dialog.dismiss();
                 pd.show();
                 new RemoteDB(SubmitActivity.this, new RemoteDB.transactionCompleted() {
                     @Override
                     public void completeTransaction(String status) {
+                        pd.dismiss();
                           if(status.equals("200"))   {
                               showSuccessDialog();
                           }else{
